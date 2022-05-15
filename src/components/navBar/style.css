@@ -1,0 +1,49 @@
+#main-nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.site-title{
+    font-weight: 400;
+}
+
+.nav-items-hidden{
+    display: none;
+}
+
+.nav-items{
+    position: absolute;
+    margin-top: 2.99rem ;
+}
+
+.nav-item{
+    list-style: none;
+    padding: 0px 0.5rem 0px 0.5rem;
+}
+
+#menu-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-image: url('./menu.png');
+    background-size: contain;
+    border-width: 0px;
+    background-color: unset;
+}
+
+@media only screen and (min-width: 525px) {
+    #main-nav{
+        justify-content: space-around;
+    }
+
+    .nav-items{
+        display: flex;
+        position: unset;
+        margin: 0px;
+    }
+
+    #menu-icon{
+        display: none;
+    }
+}
