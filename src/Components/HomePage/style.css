@@ -1,0 +1,8 @@
+.homePage {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1584574348656-JK27L58E33B3C9FZO90K/aAje01ws.jpeg?format=1500w');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+}
