@@ -1,9 +1,11 @@
 import './App.css';
+import NavBar from './components/navBar';
 
 function App() {
   return (
     <div className="App">
-      <nav></nav>
+      <NavBar />
+      <div className='place-holder'></div>
     </div>
   );
 }
