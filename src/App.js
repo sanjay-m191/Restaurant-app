@@ -1,11 +1,12 @@
 import './App.css';
 import NavBar from './components/navBar';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <div className='place-holder'></div>
+      <HomePage />
     </div>
   );
 }
