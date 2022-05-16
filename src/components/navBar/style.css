@@ -1,7 +1,7 @@
 #main-nav{
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -34,7 +34,7 @@
 
 @media only screen and (min-width: 525px) {
     #main-nav{
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .nav-items{
