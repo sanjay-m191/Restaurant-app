@@ -1,0 +1,21 @@
+#signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-field{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.75rem;
+}
+
+.signup-btn{
+    margin: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+}
