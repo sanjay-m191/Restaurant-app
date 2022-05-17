@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:ital,wght@1,600&family=Rouge+Script&family=Smooch&family=Source+Sans+Pro:wght@600&display=swap');
+
+.homePage1 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1584574348656-JK27L58E33B3C9FZO90K/aAje01ws.jpeg?format=1500w');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.insideHomePage1{
+
+    color: white;
+    font-size: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 100%;
+    height: 90vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+.reservationLogo{
+
+    width: 14rem;
+    height: 14rem;
+    background-image: url('https://restaurant.opentable.com/badge/ot/DC-2022.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: auto;
+    margin-left: 8rem;
+
+}
+
+.insideHomePage1 p{
+    
+    margin-top: 4rem;
+}
+
+
+.homePage2 {
+
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569540350302-MZ8QSC0FR9LKCN82W2S0/food2.jpeg?format=1500w');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+.insideHomepage2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.288);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.insideHomepage2 div{
+   
+    font-size: 3.5rem;
+    width: 70%;
+    font-weight: 500;
+    color: white;   
+} 
+
+.insideHomepage2 div p{
+
+    border-bottom: 2px solid white;
+    margin-bottom: 2rem;
+}
+
+.menuPara{
+    width: 20%;
+}
+.eventsPara{
+    width: 22%;
+}
+
+.reservationPara{
+    width: 35%;
+}
+
+.homePage3{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage3Para{
+    font-size: 2.4rem;
+    width: 70%;
+   
+    
+}
+
+.homePage3Para2{
+    margin-top:2rem ;
+    font-size: 2rem;
+    width: 70%;
+
+}
+
+.reservationBtn{
+
+    margin-top:3rem ;
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+}
+
+.reservationBtn:hover{
+    background-color: rgba(122, 110, 110, 0.151);
+}
+
+
+.beetContainer{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: fit-content;
+  
+}
+
+.beetPara{
+
+    margin: 4rem;
+    font-size: 1.4rem;
+    width: 40%;
+   
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.beetImg{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569540153635-LD2DZZGB532J1N0GVRIV/beet.jpeg?format=1000w');
+    width: 40%;
+    height: 45rem;
+    background-position: left;
+    background-size: cover;
+
+}
+
+
+.beetPara2{
+    width: 82%;
+    margin-top: 2rem;
+    font-family: 'Zen Loop';
+    font-size: 1.4rem;
+    font-weight: 500;
+   
+}
+
+.beetPara3{
+    
+    margin-top: 2rem;
+    font-family: 'Zen Loop';
+    font-size: 1.6rem;
+    font-weight: 10;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+   
+}
+
+
+
+
+.foodContainer{
+    margin-top: 5rem;
+    background-image:url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569539882929-DALZCGE21FOAWSFRQETP/food.jpeg?format=2500w') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.drinkContainer{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.drinkImg{
+
+    width: 45%;
+    height:45rem;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569540084221-OB7URRQ4CD5LA4DC6OCB/drink.jpeg?format=1500w');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:4rem 2rem 0rem 2rem;
+}
+
+.drinkInfo{
+
+    width: 50%;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-right: 1.2rem;
+    
+}
+
+
+.TimeTableContainer{
+    width: 100%;
+    height: 100vh;
+    margin-top: 3.5rem;
+    background-color: black;
+}
+
+/* media above 1000 */
+
+@media (max-width:1000px){
+
+    .menuPara{
+        width: 10rem;
+    }
+    .eventsPara{
+        width: 12rem;
+    }
+    
+    .reservationPara{
+        width: 18rem;
+       
+    } 
+
+    .homePage3Para{
+        font-size: 2rem;
+        width: 90%;
+
+    }
+
+    .homePage3Para2{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+
+    .reservationLogo{
+        margin-left: 0rem;
+       
+    }
+
+
+
+    .drinkImg{
+
+        background-position: center;
+        height: 80vh;
+    }
+
+
+}
+
+
+@media (max-width:650px){
+
+
+    .beetContainer{
+
+        flex-direction: column-reverse;
+        align-items: center;   
+    }
+
+ 
+
+    .beetImg{
+
+        width: 95%;
+        height: 30rem;
+        margin-bottom: 2rem;
+        background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569540153635-LD2DZZGB532J1N0GVRIV/beet.jpeg?format=1000w');
+       
+    }
+
+    .beetPara{
+
+        width: 88%;
+        margin: 0;
+        justify-content: flex-start;
+        font-size: 1.1rem;
+        height: fit-content;
+    }
+
+    .beetPara2{
+
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        
+    }
+
+    .beetPara3{
+
+        margin-top: 2rem;
+        font-size: 1.3rem;
+
+    }
+
+    .drinkContainer{
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* height: 100vh; */
+    }
+
+    .drinkImg{
+        
+        width: 95%;
+        height: 100vh;
+        background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d3c83aeae29332934b4e6/1569540084221-OB7URRQ4CD5LA4DC6OCB/drink.jpeg?format=1500w');
+        margin:0rem;
+        margin-top: 5rem;
+        background-position: center;
+        
+        
+    }
+
+    .drinkInfo{
+        width: 99%;
+        margin: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 3rem;
+        height: max-content;
+        font-size: 1.3rem;
+        
+    }
+
+    
+}
