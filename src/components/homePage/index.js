@@ -53,6 +53,25 @@ export default function HomePage() {
 
                 </div>
             </div>
+
+            <div className='foodContainer'>
+
+            </div>
+
+
+            <div className='drinkContainer'>
+                <div className='drinkImg'>
+
+                </div>
+                <div className='drinkInfo'>
+
+                &nbsp; Scarlet Kitchen and Lounge celebrates classic speakeasy era cocktails served in elegant, vintage-style glassware as well as an all-California beer and wine list.
+                </div>
+            </div>
+
+            <div className='TimeTableContainer'>
+
+            </div>
         </div>
 
     )
