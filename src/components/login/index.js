@@ -28,16 +28,16 @@ function Login() {
             <h2 className='signup-field' >Sign up</h2>
             <input 
                 className='signup-field'
-                type="email" 
-                name="email" 
+                type="text" 
+                name="firstName" 
                 value={registerEmail}
                 placeholder="First Name"
                 onChange={(event) => dispatch(setFirstName(event.target.value))} 
             />
-                        <input 
+            <input 
                 className='signup-field'
-                type="email" 
-                name="email" 
+                type="text" 
+                name="lastName" 
                 value={registerEmail}
                 placeholder="Last Name"
                 onChange={(event) => dispatch(setLastName(event.target.value))} 

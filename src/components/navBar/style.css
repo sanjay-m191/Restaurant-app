@@ -6,7 +6,8 @@
 }
 
 .site-title{
-    font-weight: 400;
+    font-weight: 100;
+    font-size: 1.2rem;
 }
 
 .nav-items-hidden{
@@ -14,13 +15,22 @@
 }
 
 .nav-items{
-    position: absolute;
-    margin-top: 2.99rem ;
+    position: fixed;
+    background-color: white;
+    width: 80%;
+    margin: 4rem 10% 0px 5%;
 }
+
 
 .nav-item{
     list-style: none;
-    padding: 0px 0.5rem 0px 0.5rem;
+    text-align: center;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.route-links{
+    text-decoration: none;
+    color: black;
 }
 
 #menu-icon{
@@ -41,6 +51,7 @@
         display: flex;
         position: unset;
         margin: 0px;
+        width: unset;
     }
 
     #menu-icon{

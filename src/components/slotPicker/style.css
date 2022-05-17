@@ -1,0 +1,11 @@
+.slot-picker-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-picker-fields{
+    padding: 1rem;
+}
