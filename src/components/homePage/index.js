@@ -130,29 +130,7 @@ export default function HomePage() {
             </div>
 
 
-            <div className='footerContainer'>
-                <div className='subfooter1'>
-                    <p className='subfooter1Para1'>Scarlet Kitchen & Lounge</p>
-                </div>
-                <div className='subfooter2'>
-                    <p>30865 Gateway Place
-                        Rancho Mission Viejo, CA 92694</p>
-                </div>
-
-                <div className='subfooter3'>
-                    <p>
-                        general inquiries email us at:
-                    </p>
-                </div>
-
-
-                <div className='subfooter4'>
-                    <p>
-                        logo
-                    </p>
-                </div>
-
-            </div>
+         
         </div>
 
     )
