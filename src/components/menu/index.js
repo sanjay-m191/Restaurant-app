@@ -2,7 +2,8 @@
 function Menu(){
     return(<div>
         Menu
-    </div>)
+    </div>
+    )
 }
 
 export default Menu;

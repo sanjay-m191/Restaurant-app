@@ -1,11 +1,67 @@
-.slot-picker-container{
-    width: 100%;
+.slot-picker{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 1rem;
 }
 
-.date-picker-fields{
+.slot-picker-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.slot-picker-submit{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+
+}
+
+.available-slots{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slot-btn{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 45%;
+    background-color: #DA4043;
+    border-width: 0px;
+    color: azure;
+    margin-top: 1rem;
+    border-radius: 5px;
+
+}
+
+.slot-picker-field{
     padding: 1rem;
+}
+
+.slot-picker-submit{
+    background-color: #DA4043;
+    border-width: 0px;
+    color: azure;
+}
+
+.slot-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 525px) {
+    .slot-picker-container{
+        align-items: center;
+    }
+    .slot-fields{
+        flex-direction: row;
+    }
+    .slot-picker-field{
+        padding: 0.5rem;
+    }
 }
