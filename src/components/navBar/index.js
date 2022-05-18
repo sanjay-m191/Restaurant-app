@@ -16,7 +16,7 @@ function NavBar(){
                 <li className="nav-item">Events</li>
                 <li className="nav-item">Gallery</li>
                 <li className="nav-item"><Link to="reservation" className="route-links">Reservations</Link></li>
-                <li className="nav-item"><Link to="login" className="route-links">Login</Link></li>
+                <li className="nav-item"><Link to="login" className="route-links">Sign up</Link></li>
             </ul>
             <button id="menu-icon" type='button' onClick={toggleMenu} ></button>
         </nav>

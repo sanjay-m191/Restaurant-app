@@ -2,17 +2,21 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-top: 4rem;
+    background-color: white;
+    padding: 3rem;
 }
 
 .slot-picker-container{
     display: flex;
     flex-direction: column;
+    background-image: url("//cdn.otstatic.com/restref-site/img/png/wood-grain-pattern-gray@2x.png");
+    height: 80vh;
+    padding-top: 4rem;
 }
 
-.slot-picker-submit{
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 5px;
-
+.slot-fields{
+    background-color: white;
 }
 
 .available-slots{
@@ -31,11 +35,13 @@
     color: azure;
     margin-top: 1rem;
     border-radius: 5px;
-
 }
 
 .slot-picker-field{
     padding: 1rem;
+    border: 0px;
+    background-color: unset;
+    outline: none;
 }
 
 .slot-picker-submit{
@@ -47,12 +53,36 @@
 .slot-fields{
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 93, 93);
+    outline: none;
+    
+}
+
+#slot-partySize{
+    background-color: unset;
 }
 
 .reservation-title{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
+
+#slot-picker-date{
+    border-top: 1px solid rgb(197, 190, 190);
+    border-bottom: 1px solid rgb(197, 190, 190);
+}
+
+.drop-down-option{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
 
 @media only screen and (min-width: 525px) {
     .slot-picker-container{
@@ -62,6 +92,21 @@
         flex-direction: row;
     }
     .slot-picker-field{
-        padding: 0.5rem;
+        padding: 1rem;
+    }
+
+    .slot-picker{
+        padding: 1rem;
+    }
+    .slot-picker-submit{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    #slot-picker-date{
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 1px solid rgb(197, 190, 190);
+        border-right: 1px solid rgb(197, 190, 190);
     }
 }
