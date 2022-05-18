@@ -8,7 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Menu from './components/menu';
+import Menu from './components/menu/index';
 import SlotPicker from './components/slotPicker';
 
 function App() {

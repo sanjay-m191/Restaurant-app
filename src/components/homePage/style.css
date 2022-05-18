@@ -284,9 +284,13 @@
 
 .timeSheet p{
  font-size: 1rem;
- margin-top: 1.4rem;
+ margin-top: 1.6rem;
  font-family: 'Quicksand', sans-serif;
 
+}
+
+.timeSheet h2{
+    font-size: 2rem;
 }
 
 .timeSheet div{
@@ -295,7 +299,6 @@
     display: flex;
     justify-content: space-between;
    
-
 }
 
 .newsLetterContainer{
@@ -368,7 +371,6 @@
 }
 
 
-
 .footerContainer{
     width: 100%;
     display: flex;
@@ -386,25 +388,27 @@
 .subfooter1Para1{
 
     font-size: 2rem;
-    
+    background-color: yellow;
 }
 
 
 .subfooter2{
 
-    width: 5%;
+    width: 15%;
+    background-color: chartreuse;
     
 }  
 .subfooter3{
-
+    
     width: 25%;
+    background-color: violet;
     
 }  
 
 .subfooter4{
 
-    width: 5%;
-    
+    width: 15%;
+    background-color: turquoise;
 }
 
 
@@ -448,6 +452,12 @@
 
         background-position: center;
         height: 80vh;
+    }
+
+
+    .timeSheet div{
+        
+        width: 50%;
     }
 
 
@@ -530,7 +540,7 @@
 
     .timeSheet div{
 
-        width: 90%;      
+        width: 70%;      
     }
 
     .mailcontainer{
@@ -545,4 +555,13 @@
 
    
     
+}
+
+
+
+@media (max-width:450px){
+
+    .timeSheet div{
+        width: 90%;
+    }
 }
