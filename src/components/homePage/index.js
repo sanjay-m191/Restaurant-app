@@ -1,5 +1,5 @@
 import './style.css'
-
+import { Link } from 'react-router-dom'
 export default function HomePage() {
 
     return (
@@ -17,9 +17,9 @@ export default function HomePage() {
 
                 <div className='insideHomepage2'>
                     <div>
-                        <p className='menuPara'>Menu</p >
-                        <p className='eventsPara'>Events</p >
-                        <p className='reservationPara'>Reservation</p >
+                       <Link to='menu' className='Links'><p className='menuPara'>Menu</p ></Link>
+                       <Link to='eventsInfo' className='Links'><p className='eventsPara'>Events</p ></Link>
+                       <Link to='reservation' className='Links'><p className='reservationPara'>Reservation</p ></Link>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ export default function HomePage() {
                     Located in the robust hills of Rancho Mission Viejo, Scarlet Kitchen & Lounge delivers the luxe and allure of old Hollywood through its elegant decor and inviting atmosphere.
                 </p>
                 <p className='homePage3Para2'>Executive chef-owner Paige Riordan masterfully blends East Coast classics with West Coast flavors.</p>
-                <button className='reservationBtn'>Make  &nbsp; a &nbsp;  Reservation</button>
+               <Link to="reservation"><button className='reservationBtn'>Make  &nbsp; a &nbsp;  Reservation</button></Link>
             </div>
 
 

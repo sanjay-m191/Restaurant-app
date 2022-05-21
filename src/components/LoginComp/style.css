@@ -5,8 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
-   
 
 }
 
@@ -16,7 +14,7 @@
     font-size: 1.4rem;
     width: 35%;
     height: 80vh;
-    border: 2px solid rgb(0, 0, 0);
+    
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -54,8 +52,8 @@
 }
 
 .passwordContainer label{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .userName{
@@ -76,13 +74,18 @@
     font-size: 1.2rem;
 }
 
-.genericError,.userIdError,.passwordError{
+
+.genericError,.userIdError,.passwordError ,.hide{
 
     color: red;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-style: italic;
+    font-weight: 100;
 }
 
+.hide{
+    color: white;
+}
 
 .loginBtn{
     margin-top: 2rem;
@@ -91,6 +94,10 @@
     color: white;
     background-color: rgba(233, 62, 62, 0.945);
 
+}
+
+.signupLink{
+    color:rgba(0, 0, 0, 0.801);
 }
 
 
@@ -108,10 +115,7 @@
     font-weight: 700;
 }
 
-.signUpPara:hover{
 
-    background-color: rgba(45, 46, 48, 0.411);
-}
 
 .loginBtn:hover{
     background-color: rgba(19, 17, 17, 0.815);

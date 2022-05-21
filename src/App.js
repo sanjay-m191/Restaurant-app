@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/navBar';
 import HomePage from './components/homePage';
-// import Login from './components/login'; 
+import Signup from './components/signUpComp/index'
 // import ReactDOM from "react-dom/client";
 import {
   BrowserRouter,
@@ -28,6 +28,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/calendar" element={<CalendarInfo />} />
       <Route path='/eventsInfo' element={<EventsInfo/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

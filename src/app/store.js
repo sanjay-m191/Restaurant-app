@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import user from '../components/login/user'
+import user from '../components/signUpComp/user'
 import slotPickerSlice from '../components/slotPicker/slotPickerSlice'
 import pickedSlot from '../components/slotPicker/slotPickerSlice'
 

@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { setPassword, setUserId, setUserAuth, setFirstName, setLastName } from './user'
 
 
-function Login() {
+function Signup() {
     const dispatch = useDispatch();
     const registerEmail = useSelector((state) => state.userCreds.userId);
     const registerPassword = useSelector((state) => state.userCreds.password);
@@ -68,4 +68,5 @@ function Login() {
     )
 }
 
-export default Login
+
+export default Signup
