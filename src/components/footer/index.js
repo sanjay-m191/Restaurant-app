@@ -24,8 +24,7 @@ export default function Footer() {
                 </p>
                 <a href='info@scarletkl.com'><p className='mailLink'>info@scarletkl.com</p></a>
                 <div className='mailLink2'>
-                <p>events:</p>
-              <a  className='mailAnchorPara' href='events@scarletkl.com'><p className='mailLink'>events@scarletkl.com</p></a>
+                <p>events:</p> <a  className='mailAnchorPara' href='events@scarletkl.com'><p className='mailLink'>events@scarletkl.com</p></a>
                 </div>
 
             </div>

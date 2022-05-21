@@ -10,7 +10,7 @@ export default function EventsInfo() {
             .then((jsonRes) => updateEventData(jsonRes))
     }, [])
 
-    console.log(EventData);
+    
 
     return (
 

@@ -88,7 +88,7 @@
 }
 
 .loginBtn{
-    margin-top: 2rem;
+   
     padding: 0.5rem;
     border: 1px solid;
     color: white;
@@ -127,8 +127,9 @@
 
 
     .loginWrapper{
-        
+        margin-top: 5rem;
         width: 80%;
+        
     }
     
 }

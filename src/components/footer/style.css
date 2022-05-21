@@ -71,8 +71,7 @@
 .mailLink2{
     margin-top: 1.8rem;
     width: 80%;
-    display: flex;
-    justify-content: space-between;
+   
 }
 
 a{
@@ -119,12 +118,24 @@ a{
 
     .subfooter3 div{
         
-        width: 30%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
+       
         
     
     }
+
+
+    .mailLink2{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+   
 
   
 }

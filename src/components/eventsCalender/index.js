@@ -5,27 +5,46 @@ import './style.css';
 function getListData(value) {
   let listData;
   switch (value.date()) {
-    case 2:
+    case 12:
       listData = [
         { type: 'warning', content: 'Music' },
         { type: 'success', content: 'Will Heard' },
+        { type: 'success', content: '6:00PM-9:00PM' }
+
       ];
       break;
-    case 10:
+    case 13:
       listData = [
         { type: 'warning', content: 'Music' },
         { type: 'success', content: 'Adam Lasher' },
+        { type: 'success', content: '6:30PM-9:30PM' }
       
       ];
       break;
-    case 28:
+    case 14:
       listData = [
-        { type: 'warning', content: 'StandUp Comedy' },
-        { type: 'success', content: 'Peter Russell' },
-        { type: 'success', content: '9PM-10PM' }
+        { type: 'warning', content: 'Music' },
+        { type: 'success', content: 'Lauren Black' },
+        { type: 'success', content: '6:30PM-9:30PM' }
   
       ];
       break;
+      case 18:
+        listData = [
+          { type: 'warning', content: 'Music' },
+          { type: 'success', content: 'Roderick C' },
+          { type: 'success', content: '6:00PM-9:00PM' }
+    
+        ];
+        break;
+        case 20:
+          listData = [
+            { type: 'warning', content: 'Music' },
+            { type: 'success', content: 'Kai Kalama' },
+            { type: 'success', content: '6:30PM-9:30PM' }
+      
+          ];
+          break;
     default:
   }
   return listData || [];

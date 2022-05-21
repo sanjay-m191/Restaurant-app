@@ -50,7 +50,7 @@ export default class Login extends Component {
             password: event.target.value
         })
 
-        this.validPassword = (this.state.password).length == 7 ? 1 : 0
+        this.validPassword = (this.state.password).length >= 7 ? 1 : 0
 
         this.setState({ passworderr: 'password should at least 8 characters' })
 

@@ -9,7 +9,7 @@ export default function Menu (){
         .then((jsonRes) => updateMenu(jsonRes))
     }, [])
 
-    console.log(menu);
+    
 
     return (
     
