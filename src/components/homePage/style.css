@@ -354,6 +354,8 @@
     height: 3.2rem;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.342);
+    color: black;
+    padding-left: 0.5rem;
 }
 
 .signUpBtn{
@@ -371,45 +373,7 @@
 }
 
 
-.footerContainer{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: burlywood;
 
-}
-
-.subfooter1{
-
-    width: 25%;
-    
-}
-
-.subfooter1Para1{
-
-    font-size: 2rem;
-    background-color: yellow;
-}
-
-
-.subfooter2{
-
-    width: 15%;
-    background-color: chartreuse;
-    
-}  
-.subfooter3{
-    
-    width: 25%;
-    background-color: violet;
-    
-}  
-
-.subfooter4{
-
-    width: 15%;
-    background-color: turquoise;
-}
 
 
 

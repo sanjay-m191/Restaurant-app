@@ -1,0 +1,75 @@
+
+.EventDataContainer{
+    width: 100%;
+    
+}
+
+.EventDataItems{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.EventDataItems h2, p{
+
+    margin-bottom: 1.3rem;
+
+} 
+
+.EventDataItems h2{
+    font-weight: 700;
+}
+.info{
+    width: 65%;
+}
+.ArtistImg{
+    width: 30%;
+    height: 60vh;
+    object-fit: fill;
+
+}
+
+
+
+@media(max-width:850px) {
+    
+    .EventDataItems{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        border-bottom: 2px solid rgba(0, 0, 0, 0.295);
+    }
+    
+    .ArtistImg{
+
+        width: 70%;
+        height: 60vh;
+    }
+
+    .EventDataItems h2{
+        margin-top:2rem ;
+    }
+
+    .info{
+        width: 90%;
+    }
+    
+}
+
+
+@media(max-width:550px){
+
+    .ArtistImg{
+
+        width: 60%;
+        height: 40vh;
+    }
+}
+

@@ -13,8 +13,9 @@ function NavBar(){
             <h1 className='site-title'><Link to="/" className="route-links"><h1>Scarlet Kitchen & Lounge</h1></Link></h1>
             <ul className={`nav-items${displayMenu ? "" : " nav-items-hidden"}`}>
                 <li className="nav-item"><Link to="menu" className="route-links">Menu</Link></li>
-                <li className="nav-item">Events</li>
-                <li className="nav-item">Gallery</li>
+               <Link to={"EventsInfo"} className="route-links"> <li className="nav-item">Events & Music</li></Link>
+               <Link to={"calendar"} className="route-links"> <li className="nav-item">Calendar</li></Link>
+                
                 <li className="nav-item"><Link to="reservation" className="route-links">Reservations</Link></li>
                 <li className="nav-item"><Link to="login" className="route-links">Login</Link></li>
             </ul>

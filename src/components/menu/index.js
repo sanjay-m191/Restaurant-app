@@ -11,8 +11,10 @@ export default function Menu (){
 
     console.log(menu);
 
-    return (<div className="menuContainer">
-
+    return (
+    
+    <div className="menuContainer">
+                
         {menu.map((currItem,indx) => {
 
 
@@ -20,9 +22,7 @@ export default function Menu (){
 
 
                 <div  key={indx} className="menuItems">
-
-                    <img  className='itemImg' src={currItem.img} width={300} height={200}></img>
-                    <h3>{currItem.name} </h3>
+                    <h2>{currItem.name} </h2>
                     <p>{currItem.dsc} </p>
                     
 

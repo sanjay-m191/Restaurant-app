@@ -75,7 +75,7 @@ export default function HomePage() {
                     <p> Rancho Mission Viejo, California 92694</p>
                 </div>
 
-                <button className='reservationBtn'>Get  &nbsp;  Directions</button>
+               <a href='https://goo.gl/maps/TRDBcUXmvciioBzGA'> <button className='reservationBtn'>Get  &nbsp;  Directions</button></a>
 
                 <div className='timeSheet'>
 
